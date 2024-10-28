@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6f5f5;
+  width: 360px;
+  margin: 300px auto;
+  background-color: #fff;
+  padding: 56px 20px 90px 25px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* search-string */
+.search-string {
+  width: 316px;
+  height: 44px;
+  border-radius: 12px;
+  background-color: #efefef;
+  border: none;
+}
+/* Manu-section */
+.manu-position {
+  display: inline-block;
+
+  text-align: center;
+}
+.img-position {
+  width: 74px;
+  height: 74px;
+  padding: 18px;
+  background: #efefef;
+  border-radius: 12px;
+  margin-right: 24px;
+}
+.img-position:hover {
+  width: 74px;
+  height: 74px;
+  padding: 18px;
+  background: #eae2b7;
+  border-radius: 12px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.container-manu {
+  padding-top: 30px;
+}
+/* Burger-section */
+.position-content {
+  border: 1px solid #e5e5e5;
+  padding: 6px 16px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+.position-content:hover {
+  border: 1px solid #e5e5e5;
+  padding: 6px 16px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  background-color: #eae2b7;
+  cursor: pointer;
+}
+.description-burgers {
+  display: inline-block;
+  margin-left: 12px;
+}
+.type-burgers {
+  margin: 0;
+}
+.img-fish-burger {
+  width: 60px;
+  height: 68px;
+}
