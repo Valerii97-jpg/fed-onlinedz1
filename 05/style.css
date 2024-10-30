@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 body {
+  font-family: "Inter";
   background-color: #f6f5f5;
   width: 360px;
   margin: 300px auto;
@@ -10,11 +11,29 @@ body {
   border-radius: 20px;
   border: 1px solid black;
 }
+p {
+  font-weight: 500;
+  font-size: 16px;
+  color: red;
+}
+h3 {
+  margin-bottom: 0;
+  padding-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+}
 h4 {
+  font-weight: 500;
+  font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
 }
 
+.title-pages {
+  margin: 23px 0 17px;
+  font-weight: 600;
+  font-size: 32px;
+}
 /* search-string */
 .search-string {
   width: 316px;
@@ -50,6 +69,14 @@ h4 {
   padding-top: 30px;
 }
 /* Burger-section */
+.burger-section {
+  padding-top: 32px;
+}
+.title-burger {
+  margin-bottom: 26px;
+  font-weight: 500;
+  font-size: 20px;
+}
 .position-content {
   border: 1px solid #e5e5e5;
   padding: 6px 16px;
@@ -63,6 +90,9 @@ h4 {
   margin-bottom: 12px;
   background-color: #eae2b7;
   cursor: pointer;
+}
+.position-content:last-child {
+  margin-bottom: 0;
 }
 .description-burgers {
   display: inline-block;
