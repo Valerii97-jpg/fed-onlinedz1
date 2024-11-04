@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #e5e5e5;
+}
+.container {
+  margin: 0 auto;
+}
+.position-relative {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+}
+/* Blok-one */
+.posistion-abs-one {
+  position: relative;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  padding: 50px;
+}
+.bck1 {
+  background-color: blue;
+  width: 50px;
+  height: 21px;
+  margin-bottom: 0;
+}
+.bck2 {
+  background-color: yellow;
+  width: 50px;
+  height: 21px;
+  margin-top: 0;
+}
+.position-flag {
+  bottom: 30px;
+  position: absolute;
+  left: 125px;
+}
+.position-world {
+  position: absolute;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 70px;
+  top: 118px;
+  left: 83px;
+}
+/* Blok-two */
+.container-two-flag {
+  position: absolute;
+  right: 258px;
+  top: 200px;
+}
+.posistion-abs-two {
+  position: relative;
+  width: 300px;
+}
+.flag-blue {
+  width: 300px;
+  height: 150px;
+  margin-bottom: 0;
+  background-color: blue;
+}
+.flag-yellow {
+  width: 300px;
+  height: 150px;
+  margin-top: 0;
+  background-color: #ffce22;
+}
+.img-flag {
+  position: absolute;
+  width: 237px;
+  right: 44px;
+  top: 83px;
+}
+.posistion-abs-three {
+  width: 512px;
+  height: 512px;
+  position: relative;
+  background-color: white;
+  left: 477px;
+  top: 170px;
+  border-top: 2px solid #2137fc;
+  border-bottom: 2px solid #2137fc;
+}
+.position-flag-three {
+  position: relative;
+}
+.sssss {
+  position: relative;
+}
+.color-flags-yellow {
+  position: absolute;
+  right: 33px;
+
+  width: 444px;
+  height: 444px;
+  background-color: #ffce22;
+  border-radius: 100%;
+  margin: 20px 0 20px 0;
+}
+.images-blok-three {
+  position: absolute;
+  width: 444px;
+  height: 235px;
+  z-index: 1;
+  right: 34px;
+  top: 20px;
+}
+.img-glyph-blol-three {
+  position: absolute;
+  z-index: 1;
+  top: 237px;
+  width: 340px;
+  left: 80px;
+}
