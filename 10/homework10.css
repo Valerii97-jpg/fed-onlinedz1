@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "IBM Plex Sans";
+}
+.main-container {
+  background-color: #00a1c624;
+  width: 1920px;
+  margin: 0 auto;
+}
+
+h1 {
+  display: block;
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 48px;
+}
+h4 {
+  font-family: "Catamaran";
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+span {
+  font-weight: 400;
+  font-size: 48px;
+}
+p {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+}
+/* Bloks */
+
+.blok {
+  display: block;
+  position: relative;
+  background-color: #ffff;
+  width: 295px;
+  height: 470px;
+  border-radius: 20px;
+  margin-right: 30px;
+  border: 2px solid red;
+  float: left;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Blok-one */
+
+div > img {
+  display: inline-block;
+  width: 120px;
+}
+.description-developer {
+  font-family: "Catamaran";
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.icon-skil {
+  position: absolute;
+  top: 336px;
+  left: 115px;
+  width: 50px;
+  height: 50px;
+  background-color: #41b883;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.img-blok-one {
+  position: absolute;
+  width: 30px;
+  height: 26px;
+  top: 15px;
+  left: 10px;
+}
+/* Blok-two */
+.image-container-blok {
+  position: absolute;
+  width: 167px;
+  height: 167px;
+  overflow: hidden;
+  top: 56px;
+  left: 87px;
+}
+.imag-blok-two {
+  width: 120px;
+  height: 120px;
+}
+.professional-title {
+  position: absolute;
+  top: 195px;
+  left: 88px;
+}
+.icon-skil-blok-two {
+  position: absolute;
+  top: 336px;
+}
+.angular {
+  position: absolute;
+  left: 57px;
+  width: 50px;
+  height: 50px;
+  background-color: #34474f;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.angular-img {
+  width: 50px;
+  height: 50px;
+}
+.flutter {
+  position: absolute;
+  left: 122px;
+  width: 50px;
+  height: 50px;
+  background-color: #202124;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.flutter-img {
+  width: 50px;
+  height: 50px;
+}
+.react {
+  position: absolute;
+  left: 187px;
+  width: 50px;
+  height: 50px;
+  background-color: #61dafb;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.react-image {
+  width: 50px;
+  height: 50px;
+}
+/* Blok-three */
+.img-icons-developer {
+  width: 120px;
+  height: 120px;
+}
+.icon-skil-blok-three {
+  position: absolute;
+  top: 336px;
+}
+.java {
+  position: absolute;
+  left: 91px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: #d63033;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.java-img {
+  position: absolute;
+  top: 7px;
+  left: 13px;
+  width: 22px;
+  height: 30px;
+}
+.react-blok-thee {
+  position: absolute;
+  left: 155px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: #0aa9d7;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.img-react {
+  position: absolute;
+  width: 31px;
+  height: 33px;
+  top: 8.75px;
+  left: 9.38px;
+}
+/* Blok-four */
+
+.html {
+  position: absolute;
+  left: 91px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #e44e25;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-html {
+  position: absolute;
+  top: 11.88px;
+  left: 15px;
+  width: 19.73px;
+  height: 25.77px;
+}
+.css-skil {
+  position: absolute;
+  left: 155px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #1073bb;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-css {
+  position: absolute;
+  width: 18.75px;
+  height: 26.88px;
+  top: 10.63px;
+  left: 15.63px;
+}
