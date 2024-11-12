@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  background-color: #f2f2f2;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+main {
+  color: #2d3640;
+  width: 1243px;
+  margin: 0 auto;
+  padding: 142px 0 128px;
+}
+h1 {
+  font-weight: 600;
+
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: -0.5px;
+}
+h1 > span {
+  color: #2d3640;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+.text-title-top {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+/* Card-section */
+.user-card {
+  display: block;
+  padding: 56px 0 122px;
+  width: 295px;
+  background-color: #fff;
+  text-align: center;
+  float: left;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+.card-row .user-card:last-child {
+  margin-right: 0;
+}
+.user-container-photo {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.img-usercard {
+  width: 120px;
+  height: 120px;
+}
+.user-card h4 {
+  font-family: Catamaran;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32.8px;
+  letter-spacing: -0.625px;
+
+  margin: 34px 0 4px;
+}
+.skill {
+  width: 50px;
+  height: 50px;
+  background-color: #41b883;
+  border-radius: 100%;
+  text-align: center;
+  padding: 15px 0 0 0;
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 32px;
+  margin-right: 15px;
+}
+.skill > img {
+  width: 25px;
+}
+.skill:last-child {
+  margin-right: 0;
+}
+/* card-two */
+.skil-angular {
+  width: 50px;
+  height: 50px;
+  background-color: #34474f;
+  border-radius: 100%;
+  text-align: center;
+  padding: 10px 10px 13px;
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 32px;
+  margin-right: 15px;
+}
+
+.skil-flutter {
+  width: 50px;
+  height: 50px;
+  background-color: #202124;
+  border-radius: 100%;
+  text-align: center;
+  padding: 9px 9px 13px;
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 32px;
+  margin-right: 15px;
+}
+
+.skil-react {
+  width: 50px;
+  height: 50px;
+  background-color: #61dafb;
+  border-radius: 100%;
+  text-align: center;
+  padding: 9px 8px 10px;
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 32px;
+  margin-right: 0px;
+}
+
+/* Card-tree */
+.skill-java {
+  width: 50px;
+  height: 50px;
+  background-color: #d63033;
+  border-radius: 100%;
+  text-align: center;
+  padding: 7px 14px 12px 14px;
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 32px;
+  margin-right: 15px;
+}
+.skill-react {
+  width: 50px;
+  height: 50px;
+  background-color: #0aa9d7;
+  border-radius: 100%;
+  text-align: center;
+  padding: 9px 8px 10px;
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 32px;
+  margin-right: 0px;
+}
+/* Card-four */
+.html-skill {
+  width: 50px;
+  height: 50px;
+  background-color: #e44e25;
+  border-radius: 100%;
+  text-align: center;
+  padding: 12px 15px;
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 32px;
+  margin-right: 15px;
+}
+.css-skill {
+  width: 50px;
+  height: 50px;
+  background-color: #1073bb;
+  border-radius: 100%;
+  text-align: center;
+  padding: 11px 16px 12px 16px;
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 32px;
+  margin-right: 0px;
+}
