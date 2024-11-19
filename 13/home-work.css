@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito Sans";
+}
+.container {
+  width: 82%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 22.8px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #000000;
+}
+ul {
+  list-style-type: none;
+}
+h3 {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 38.4px;
+  letter-spacing: 2px;
+  text-align: left;
+  padding-right: 286px;
+}
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #f2994a;
+}
+h1 {
+  max-width: 553px;
+  font-family: Nunito Sans;
+  font-size: 65px;
+  font-weight: 800;
+  line-height: 78px;
+  letter-spacing: 1px;
+  color: #000000;
+  padding-bottom: 71px;
+}
+/* header-section */
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-header {
+  display: flex;
+  gap: 35px;
+}
+.nav-header-faind {
+  display: flex;
+  gap: 31px;
+}
+
+/* Main section */
+.main-container {
+  display: flex;
+  padding-top: 168px;
+  justify-content: center;
+}
+.main-content {
+  margin-left: 146px;
+}
+.description-text-main {
+  max-width: 562px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #4f4f4f;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+.icon-watch-video {
+  width: 85px;
+  height: 85px;
+  background-color: #3f9ab7;
+  border-radius: 100%;
+}
+.description-video-button {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  letter-spacing: 1px;
+  text-align: left;
+  padding-left: 21px;
+}
+.video-content {
+  display: flex;
+  align-items: center;
+}
+
+.after::after {
+  display: inline-block;
+  content: "";
+  width: 188px;
+  height: 6px;
+  background-color: #f2994a;
+}
+/* Footer */
+footer {
+  background-color: #3f9ab7;
+}
+.information-number-client {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.74px;
+  text-align: left;
+  color: #ffffff;
+}
+.information-number-client > span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.28px;
+  text-align: left;
+  color: #ffffff;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.client-icon {
+  position: relative;
+}
+.image-client-two {
+  position: absolute;
+  right: 31px;
+}
+.information-number-client {
+  padding-left: 32px;
+}
