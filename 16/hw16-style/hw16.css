@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 1728px;
+  background-image: url("../image/Rectangle\ 1\ \(1\).jpg");
+  background-size: cover;
+  font-family: "Inter";
+}
+.container {
+  max-width: 1656px;
+}
+/* header */
+a {
+  text-decoration: none;
+}
+.partition::after {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 28px;
+  background-color: #ffffff;
+  border: 3px;
+}
+h4 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #c8c8c8;
+  margin: 0;
+}
+input {
+  background-image: url("../image/fe_search\ \(1\).svg");
+  background-color: red;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 30px 30px;
+  border: none;
+  border-radius: 6px;
+  height: 30px;
+}
+
+.icon-accaunt {
+  width: 74px;
+  height: 74px;
+  overflow: hidden;
+}
+/* Main */
+h3 {
+  font-size: 32px;
+  font-weight: 500;
+
+  color: #ffffff;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 800;
+  color: #ffffff;
+}
+h5 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+}
+h5 span {
+  font-size: 29px;
+  font-weight: 400;
+  color: #c8c8c8;
+}
+.description-serial {
+  font-size: 24px;
+  font-weight: 400;
+  color: #a7a6a6;
+  max-width: 864px;
+}
+.fa-solid {
+  color: yellow;
+  margin-right: 6px;
+}
+.fa-regular {
+  color: #ffffff;
+  margin-right: 6px;
+}
+.fa-regular:last-child {
+  margin-right: 0;
+}
+.button-stream {
+  background-image: url("../image/icon-play-stream.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center right 34px;
+  border: 2px solid #ffffff;
+  width: 275px;
+  padding: 16px 54px 16px 34px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+}
+.all-episodes {
+  width: 271px;
+  border-radius: 10px;
+
+  padding: 16px 30px 16px 30px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  border: 2px solid #ffffff;
+}
+.popular-week {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+article {
+  width: 151px;
+  height: 210px;
+  border: 1px solid #ffffff;
+}
