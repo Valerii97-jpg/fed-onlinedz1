@@ -179,20 +179,29 @@ h5 span {
   font-size: 22px;
   font-weight: 800;
 }
-.fa-circle-chevron-left {
+.fa-angle-left {
   position: absolute;
   right: 0;
   margin-right: 70px;
   font-size: 41px;
-  color: #ffffff;
-  background-color: transparent;
-  border: 2px solid #ffffff;
+  text-align: center;
+  width: 41px;
+  height: 41px;
+  border: 2px solid #a7a6a6;
   border-radius: 100%;
+
+  color: #a7a6a6;
 }
-.fa-circle-chevron-right {
+.fa-angle-right {
+  text-align: center;
+  width: 41px;
+  height: 41px;
+  border: 2px solid #a7a6a6;
+  border-radius: 100%;
   position: absolute;
   right: 0;
   font-size: 41px;
+  color: #a7a6a6;
 }
 .fa-circle-chevron-right {
 }
