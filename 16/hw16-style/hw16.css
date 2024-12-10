@@ -15,11 +15,14 @@ body {
 }
 /* header */
 .header-container {
+  position: relative;
   display: flex;
   align-items: center;
 }
 
 .search-content {
+  position: absolute;
+  right: 0;
   display: flex;
   align-items: center;
 }
@@ -28,7 +31,7 @@ a {
 }
 .partition-header::after {
   position: absolute;
-  top: 66px;
+  top: 12px;
   content: "";
   display: inline-block;
   width: 3px;
@@ -39,7 +42,7 @@ a {
 }
 .partition::after {
   position: absolute;
-  left: 111px;
+  left: 120px;
   content: "";
   display: inline-block;
   width: 3px;
@@ -49,7 +52,7 @@ a {
 }
 .partition-last::after {
   position: absolute;
-  left: 223px;
+  left: 256px;
   content: "";
   display: inline-block;
   width: 3px;
@@ -65,8 +68,10 @@ h4 {
   padding-left: 90px;
 }
 input {
+  font-size: 22px;
+  font-weight: 800;
   background-image: url("../image/fe_search\ \(1\).svg");
-  background-color: red;
+  background-color: transparent;
   background-repeat: no-repeat;
   background-position: center right;
   background-size: 30px 30px;
@@ -82,6 +87,7 @@ input {
 }
 /* Main */
 .genre {
+  padding-top: 115px;
   position: relative;
   display: flex;
   align-items: center;
@@ -94,6 +100,7 @@ h3 {
   color: #ffffff;
 }
 h1 {
+  padding-top: 26px;
   font-family: Inter;
   font-size: 64px;
   font-weight: 800;
@@ -103,6 +110,7 @@ h1 {
   color: #ffffff;
 }
 .setting-series {
+  padding-top: 17px;
   display: flex;
 }
 h5 {
@@ -117,6 +125,8 @@ h5 span {
   color: #c8c8c8;
 }
 .description-serial {
+  padding-top: 8px;
+  padding-bottom: 20px;
   font-size: 24px;
   font-weight: 400;
   color: #a7a6a6;
@@ -133,6 +143,11 @@ h5 span {
 .fa-regular:last-child {
   margin-right: 0;
 }
+.button-watching-series {
+  padding-top: 53px;
+  padding-bottom: 54px;
+}
+
 .button-stream {
   background-image: url("../image/icon-play-stream.svg");
   background-color: transparent;
@@ -169,6 +184,7 @@ h5 span {
   border: none;
 }
 .popular-this-week {
+  padding-bottom: 32px;
   display: flex;
   align-items: center;
   position: relative;
@@ -179,32 +195,53 @@ h5 span {
   font-size: 22px;
   font-weight: 800;
 }
-.fa-angle-left {
+.carusel-button-left {
+  cursor: pointer;
   position: absolute;
   right: 0;
-  margin-right: 70px;
-  font-size: 41px;
-  text-align: center;
   width: 41px;
   height: 41px;
   border: 2px solid #a7a6a6;
   border-radius: 100%;
-
+  background-color: transparent;
+}
+.carusel-button-left:hover {
+  border: 2px solid #ffffff;
+}
+.fa-angle-left:hover {
+  color: #ffffff;
+}
+.fa-angle-left {
+  transform: rotate(180deg);
+  text-align: center;
   color: #a7a6a6;
+  font-size: 27px;
+}
+
+.carusel-button-right {
+  cursor: pointer;
+  position: absolute;
+  right: 24px;
+  margin-right: 40px;
+  width: 41px;
+  height: 41px;
+  border: 2px solid #a7a6a6;
+  border-radius: 100%;
+  background-color: transparent;
+}
+.carusel-button-right:hover {
+  border: 2px solid #ffffff;
+}
+.fa-angle-right:hover {
+  color: #ffffff;
 }
 .fa-angle-right {
+  transform: rotate(180deg);
   text-align: center;
-  width: 41px;
-  height: 41px;
-  border: 2px solid #a7a6a6;
-  border-radius: 100%;
-  position: absolute;
-  right: 0;
-  font-size: 41px;
   color: #a7a6a6;
+  font-size: 27px;
 }
-.fa-circle-chevron-right {
-}
+
 article {
   width: 151px;
   height: 210px;
@@ -217,4 +254,27 @@ article:last-child {
   display: flex;
   align-items: center;
   gap: 50px;
+}
+.sss {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+.sss::after {
+  position: sticky;
+  display: inline-block;
+  content: "16+";
+  width: 174px;
+  height: 66px;
+  background-color: #a7a6a6;
+}
+.sss::before {
+  position: sticky;
+  display: inline-block;
+  content: "1";
+  width: 33px;
+  height: 66px;
+  background-color: #d40d1f;
+  color: #d40d1f;
 }
