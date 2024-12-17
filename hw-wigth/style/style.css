@@ -51,6 +51,7 @@ h1 {
   line-height: 84px;
 }
 .information-about-designer {
+  padding: 24px 0;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -77,6 +78,7 @@ h1 {
 }
 /* Portfolio */
 h2 {
+  padding: 100px 0 24px 0;
   color: #132238;
   font-size: 48px;
   font-weight: 600;
@@ -84,11 +86,12 @@ h2 {
   text-align: center;
 }
 .text-porfolio {
+  padding-bottom: 70px;
   color: #87909d;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  width: 40%;
+  width: 43%;
   text-align: center;
 }
 .text-block {
@@ -96,12 +99,11 @@ h2 {
   justify-content: center;
 }
 .card-projects-one {
-  justify-content: space-between;
+  gap: 24px;
+  justify-content: center;
   flex-wrap: wrap;
   display: flex;
-
   align-items: center;
-  gap: 24px;
 }
 .type-design {
   padding-top: 32px;
@@ -142,24 +144,23 @@ h2 {
   color: #ffffff;
 }
 .card-projects-one > article {
-  width: 424px;
+  max-width: 424px;
 }
 /* Section-card-two */
 .card-projects-two {
-  display: flex;
+  padding-top: 24px;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  display: flex;
   align-items: center;
   gap: 24px;
 }
 .card-projects-two > article {
-  width: 424px;
+  max-width: 424px;
 }
-.card-firm article {
-  width: 200px;
-  border: 2px solid red;
-}
+
 .more-button-cards {
+  padding: 50px 0 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -225,7 +226,8 @@ h2 {
 }
 /* Clients */
 .clients-container {
-  width: 44%;
+  padding-top: 100px;
+  width: 35%;
   margin: 0 auto;
 }
 .clients-title {
@@ -236,11 +238,17 @@ h2 {
   text-align: center;
 }
 .description-section-clients {
+  padding: 24px 0;
   color: #87909d;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   text-align: center;
+}
+.card-firm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 /* Testimonial */
 .testimonal-container {
@@ -248,6 +256,7 @@ h2 {
   margin: 0 auto;
 }
 .testimonal-title {
+  padding-top: 100px;
   color: #333333;
   font-size: 48px;
   font-weight: 600;
@@ -280,6 +289,7 @@ h2 {
   text-align: center;
 }
 .name-campani {
+  padding: 8px 0 100px 0;
   color: #000000;
   font-family: Poppins;
   font-size: 16px;
