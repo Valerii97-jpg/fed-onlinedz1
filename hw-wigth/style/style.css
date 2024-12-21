@@ -8,6 +8,7 @@ body {
 .container {
   width: 70%;
   margin: 0 auto;
+  padding: 0 10px;
 }
 .nav-header button {
   width: 111px;
@@ -18,7 +19,7 @@ body {
   border-radius: 3px;
   font-weight: 500;
   font-size: 16px;
-
+  padding: 0;
   text-decoration: none;
 }
 /* header */
@@ -101,9 +102,12 @@ h2 {
 .card-projects-one {
   gap: 24px;
   justify-content: center;
-  flex-wrap: wrap;
+
   display: flex;
   align-items: center;
+}
+.card-projects-one article img {
+  width: 100%;
 }
 .type-design {
   padding-top: 32px;
@@ -144,19 +148,22 @@ h2 {
   color: #ffffff;
 }
 .card-projects-one > article {
-  max-width: 424px;
+  width: 32%;
 }
 /* Section-card-two */
 .card-projects-two {
   padding-top: 24px;
   justify-content: center;
-  flex-wrap: wrap;
+
   display: flex;
   align-items: center;
   gap: 24px;
 }
+.card-projects-two article img {
+  width: 100%;
+}
 .card-projects-two > article {
-  max-width: 424px;
+  width: 32%;
 }
 
 .more-button-cards {
@@ -245,6 +252,10 @@ h2 {
   line-height: 24px;
   text-align: center;
 }
+.card-firm article img {
+  width: 100%;
+}
+
 .card-firm {
   display: flex;
   align-items: center;
@@ -331,4 +342,12 @@ h2 {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+@media (max-width: 1300px) {
+  .card-projects-one {
+    flex-wrap: wrap;
+  }
+  .card-firm {
+    flex-wrap: wrap;
+  }
 }

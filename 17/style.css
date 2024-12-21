@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+h1 {
+  padding: 50px;
+  background-color: black;
+  color: wheat;
+}
+.container {
+  padding: 10px;
+  margin: 0 auto;
+  width: 90%;
+  font-size: 40px;
+  background-color: red;
+}
+@media (max-width: 1600px) {
+  .container {
+    padding: 10%;
+    width: 50%;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  h1 {
+    background-color: blue;
+    color: yellowgreen;
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    background-color: green;
+  }
+  .container {
+    padding: 20px;
+    width: 90%;
+
+    border-radius: 20px;
+  }
+}
+@media (min-width: 1080px) {
+  h1 {
+    padding: 100px;
+    margin: 0;
+    background-color: green;
+  }
+  .container {
+    padding: 50px;
+    width: 1000px;
+
+    border-radius: 20px;
+  }
+}
