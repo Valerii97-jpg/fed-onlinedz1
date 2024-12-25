@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins";
+  font-family: "Montserrat";
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+button {
+  display: block;
+}

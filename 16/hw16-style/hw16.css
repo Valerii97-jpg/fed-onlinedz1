@@ -10,10 +10,16 @@ body {
   padding: 43px 33px 50px 0;
 }
 .container {
-  max-width: 1656px;
+  width: 86%;
   margin: 0 auto;
+  padding: 0 10px;
 }
 /* header */
+.s {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .header-container {
   position: relative;
   display: flex;
@@ -21,8 +27,6 @@ body {
 }
 
 .search-content {
-  position: absolute;
-  right: 0;
   display: flex;
   align-items: center;
 }
@@ -79,7 +83,9 @@ input {
   border-radius: 6px;
   height: 30px;
 }
-
+input::placeholder {
+  color: #ffffff;
+}
 .icon-accaunt {
   width: 74px;
   height: 74px;
@@ -277,4 +283,61 @@ article:last-child {
   height: 66px;
   background-color: #d40d1f;
   color: #d40d1f;
+}
+@media (max-width: 1080px) {
+  .s {
+    flex-direction: column;
+  }
+  .genre {
+    flex-wrap: wrap;
+  }
+  .partition::after {
+    display: none;
+  }
+  .partition-last::after {
+    display: none;
+  }
+  .setting-series {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .description-serial {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .button-stream {
+    margin-bottom: 20px;
+  }
+  .carusel-button-right {
+    display: none;
+  }
+  .carusel-button-left {
+    display: none;
+  }
+  .suggested-movies {
+    flex-wrap: wrap;
+  }
+  .sss::after {
+    width: 62px;
+  }
+}
+@media (max-width: 670px) {
+  .header-container {
+    flex-direction: column;
+  }
+  .search-content {
+    flex-direction: column;
+  }
+  input {
+    width: 220px;
+  }
+  .partition-header::after {
+    display: none;
+  }
+  h4 {
+    padding-left: 0px;
+  }
+  h1 {
+    font-size: 55px;
+  }
 }
