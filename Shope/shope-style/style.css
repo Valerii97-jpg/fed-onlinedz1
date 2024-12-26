@@ -55,7 +55,7 @@ input::placeholder {
 }
 /* categori name site */
 .logo-section {
-  width: 15%;
+  width: 24%;
 }
 h1 {
   color: #000000;
@@ -85,39 +85,47 @@ h1 {
   color: #ffffff;
 }
 .logo-container {
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 105px;
+  padding-left: 30px;
 }
-.sneakers-logo-right {
-  position: absolute;
-  top: 105px;
-  width: 39%;
-  left: 398px;
+
+.sneakers-logo {
+  display: flex;
 }
 /* gender-categories */
 .gender-categories {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 82px;
 }
 
 .women-categorie {
-  position: relative;
   background-image: url("../img/Rectangle\ 9.svg");
   width: 47%;
   background-size: contain;
   background-repeat: no-repeat;
-  min-height: 454px;
+  height: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .men-categorie {
-  position: relative;
   background-image: url("../img/Rectangle\ 10.svg");
   width: 47%;
   background-size: contain;
   background-repeat: no-repeat;
-  min-height: 454px;
+  min-height: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-by-men-categories {
+  display: flex;
+  justify-content: center;
 }
 .name-gender {
   color: #ffffff;
@@ -125,7 +133,15 @@ h1 {
   font-size: 40px;
   font-weight: 800;
   line-height: 40px;
-  padding: 20px 0 0 20px;
+  padding-bottom: 20px;
+}
+.women-categorie {
+  display: flex;
+  justify-content: center;
+}
+.by-button-categries {
+  display: flex;
+  justify-content: center;
 }
 .buttom-by-categories {
   color: #000000;
@@ -133,9 +149,7 @@ h1 {
   font-size: 18px;
   font-weight: 500;
   line-height: 28px;
-  padding-left: 20px;
-  position: absolute;
-  bottom: 20px;
+  padding: 0;
 }
 .buttom-by-categories:hover {
   color: #ffffff;
@@ -146,6 +160,9 @@ h1 {
   justify-content: space-between;
   gap: 35px;
   align-items: center;
+}
+.new-releases-container img {
+  border-radius: 15px;
 }
 .title-releases {
   color: #000000;
@@ -171,6 +188,9 @@ h1 {
   justify-content: space-between;
   align-items: center;
   gap: 35px;
+}
+.top-kicks-container img {
+  border-radius: 15px;
 }
 .title-kicks {
   color: #000000;
