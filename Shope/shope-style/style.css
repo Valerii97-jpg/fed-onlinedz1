@@ -55,7 +55,7 @@ input::placeholder {
 }
 /* categori name site */
 .logo-section {
-  width: 24%;
+  width: 20%;
 }
 h1 {
   color: #000000;
@@ -160,6 +160,7 @@ h1 {
   justify-content: space-between;
   gap: 35px;
   align-items: center;
+  overflow-y: auto;
 }
 .new-releases-container img {
   border-radius: 15px;
@@ -188,6 +189,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   gap: 35px;
+  overflow-x: auto;
 }
 .top-kicks-container img {
   border-radius: 15px;
@@ -198,6 +200,7 @@ h1 {
   font-size: 30px;
   font-weight: 800;
   line-height: 40px;
+  padding: 30px 0;
 }
 .top-kicks-container p {
   color: #000000;
@@ -318,4 +321,107 @@ li {
 }
 .social-container {
   margin-right: 116px;
+}
+/* header-mobail-containe */
+.header-mobail-container {
+  visibility: hidden;
+  width: 88%;
+  display: flex;
+  align-items: center;
+}
+.search-mobail-version {
+  width: 66px;
+}
+.bag-mobail-version {
+  margin-left: 24px;
+  padding: 0;
+}
+
+.shoppy-mobail-version:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+@media (max-width: 390px) {
+  .container {
+    width: 88%;
+    margin: 0 auto;
+  }
+  .header-mobail-container {
+    visibility: visible;
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-container {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-direction: column-reverse;
+  }
+  .left-sneakers {
+    position: relative;
+    width: 40%;
+    right: 23px;
+  }
+  .right-sneakers {
+    width: 100%;
+    position: relative;
+    left: 62px;
+  }
+  .logo-section {
+    width: 100%;
+  }
+  .gender-categories {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .women-categorie {
+    width: 100%;
+
+    background-size: cover;
+  }
+  .men-categorie {
+    width: 100%;
+    background-size: cover;
+  }
+  .new-releases-container {
+    gap: 0;
+
+    overflow-y: auto;
+  }
+  .new-releases-container div {
+    margin-right: 16px;
+  }
+  .new-releases-container img {
+    width: 231px;
+  }
+  .top-kicks-container {
+    gap: 0;
+  }
+  .top-kicks-container div {
+    margin-right: 16px;
+  }
+  .top-kicks-container img {
+    width: 231px;
+  }
+  .never-miss-drop-container {
+    width: 100%;
+  }
+  .footer-nav {
+    flex-wrap: wrap;
+  }
+  .footer-nav div {
+    width: 48%;
+    margin-bottom: 30px;
+  }
 }
