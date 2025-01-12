@@ -154,3 +154,69 @@ input::placeholder {
   background-color: transparent;
   font-size: 25px;
 }
+@media (max-width: 1080px) {
+  .nav-header {
+    flex-wrap: wrap;
+  }
+  a {
+    font-size: 2rem;
+  }
+  .button-nav-header {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .description-main {
+    font-size: 1.5rem;
+    color: black;
+    width: 100%;
+  }
+  .search-container {
+    flex-direction: column;
+  }
+  .search {
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  input {
+    margin-right: 75px;
+    margin-bottom: 2rem;
+  }
+  .sss {
+    background-position: top right -210px;
+    background-size: cover;
+  }
+  .place-travel {
+    color: white;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 400px) {
+  .text-container {
+    width: 60%;
+    padding-top: 198px;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .description-main {
+    font-size: 2rem;
+    color: white;
+    width: 100%;
+  }
+  .place-travel {
+    color: #ffffff;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .description-main {
+    font-size: 1.5rem;
+    color: white;
+    width: 100%;
+  }
+}
