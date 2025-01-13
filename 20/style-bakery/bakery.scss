@@ -16,6 +16,14 @@ body {
   font-family: "Poppins";
   background-color: var(--secondari-color);
 }
+h2 {
+  font-family: var(--main-font-famili);
+  font-size: 4rem;
+  font-weight: 900;
+}
+span {
+  color: var(--hover-color);
+}
 button {
   cursor: pointer;
   padding: 16px 32px;
@@ -51,7 +59,7 @@ a {
     color: var(--hover-color);
   }
 }
-.bcg {
+.header-section-bg {
   background-image: url("../img/img-bg-header.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,10 +93,89 @@ a {
   padding: 16px 100px;
 
   color: var(--secondari-color);
-  font-family: var(--main-font-familis);
+  font-family: var(--main-font-famili);
   font-size: 1.2rem;
   font-weight: 300;
 }
 .advantages-section {
   background-color: var(--hover-color);
 }
+//  A new format of traditions
+.title-section {
+  color: var(--main-color);
+  font-family: var(--main-font-famili);
+  font-size: 4rem;
+  font-weight: 900;
+}
+.description-bakery {
+  font-family: var(--main-font-famili);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.description-work-bakery {
+  @extend .description-bakery;
+}
+.green-words-format_tradition {
+  color: var(--hover-color);
+}
+.uppercasse {
+  text-transform: uppercase;
+}
+.text-content-new-format-traditions {
+  width: 49%;
+}
+.icon-contaoner-format_tradition {
+  overflow: hidden;
+  width: 393px;
+  height: 466px;
+}
+.icon-contaoner-format_tradition img {
+  width: 100%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  min-height: 70vh;
+}
+.new-format-traditions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+// chefs
+.title-section-chefs {
+  margin: 0 auto;
+  width: 32vw;
+}
+.title-section-chefs h2 {
+  text-align: center;
+}
+.info-chefs {
+  display: flex;
+}
+.icon-chefs {
+  width: 268px;
+  min-height: 100vh;
+  margin-right: 20px;
+}
+.icon-chefs img {
+  width: 100%;
+  border: 1px solid #a28268;
+  border-radius: 4px 4px 4px 200px;
+}
+.info-chefs h3 {
+  color: var(--main-color);
+  font-family: var(--main-font-famili);
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.description-chefs-skils {
+  color: var(--main-color);
+  font-family: var(--main-font-famili);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.content-chefs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+// format
