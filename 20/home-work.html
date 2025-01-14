@@ -20,7 +20,7 @@
         <div class="container">
           <div class="header-container">
             <button class="logo-button">
-              shope <span class="secondari-word-logo"> <br />bakeri</span>
+              shop <span class="secondari-word-logo"> <br />bakeri</span>
             </button>
             <nav class="header-nav">
               <a href="#">Наші традиції</a>
@@ -102,8 +102,8 @@
                 </p>
               </div>
             </div>
-            <div class="info-chefs">
-              <div class="icon-chefs">
+            <div class="info-chefs-vlad">
+              <div class="icon-chef-vlad">
                 <img src="./img/chef-vlad.png" alt="Картинка шеф-кухаря" />
               </div>
               <div>
@@ -125,10 +125,31 @@
       <section>
         <div class="container">
           <h2>Формати</h2>
-          <div>
-            <article></article>
-            <article></article>
-            <article></article>
+          <div class="format-container">
+            <article class="puri-left">
+              <h4>Walrus</h4>
+
+              <p>Площа: до 120 м2</p>
+              <p>Меню: розширене меню</p>
+              <p>
+                Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2
+                офіціанти-різнороби
+              </p>
+            </article>
+            <article class="puri-centr">
+              <h4>Horseshoe</h4>
+              <p>Площа: до 25 м2</p>
+              <p>Меню: найпопулярніші позиції меню</p>
+              <p>Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря</p>
+              <p>Посадкові місця: відсутні</p>
+            </article>
+            <article class="puri-right">
+              <h4>Handlebar</h4>
+              <p>Площа: до 15 м2</p>
+              <p>Меню: найпопулярніші позиції меню</p>
+              <p>Штат: 1 продавець, 1 пекар, 1 помічник пекаря</p>
+              <p>Посадкові місця: відсутні</p>
+            </article>
           </div>
           <div>
             <!-- Добавити іконки елементу каруселір -->
@@ -138,54 +159,68 @@
       <!-- Join chain  bakeries -->
       <section>
         <div class="container">
-          <div>
+          <div class="title-section-join">
             <h2>Приєднуйся до мережі пекарень</h2>
-            <p>Заповни форму, щоб ми звʼязались з тобою!</p>
-            <form>
-              <input type="text" placeholder="Ім’я" />
-              <input type="text" placeholder="Телефон" />
-              <input type="text" placeholder="Електронна пошта" />
-            </form>
-            <button>Замовити дзвінок</button>
-            <p>Натискаючи на кнопку я погоджуюсь</p>
+            <p class="tell-my">Заповни форму, щоб ми звʼязались з тобою!</p>
           </div>
-          <div>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20133.478829541127!2d34.79618587431639!3d50.89254290000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4128ff95c5eadbc1%3A0xf8c907451011b187!2z0J_QtdC60LDRgNC90Y8g0LHRgNGW0L7RiA!5e0!3m2!1suk!2sua!4v1736694979514!5m2!1suk!2sua"
-              width="600"
-              height="450"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+
+          <div class="Join-chain-bakerie-container">
+            <div>
+              <form class="form-container">
+                <input type="text" placeholder="Ім’я" />
+                <input type="text" placeholder="Телефон" />
+                <input type="text" placeholder="Електронна пошта" />
+              </form>
+              <div class="button-foin">
+                <button>Замовити дзвінок</button>
+              </div>
+              <div class="privacy-policy">
+                <p>
+                  Натискаючи на кнопку я погоджуюсь з політикою конфіденційності
+                </p>
+              </div>
+            </div>
+            <div class="map-brakerie">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20133.478829541127!2d34.79618587431639!3d50.89254290000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4128ff95c5eadbc1%3A0xf8c907451011b187!2z0J_QtdC60LDRgNC90Y8g0LHRgNGW0L7RiA!5e0!3m2!1suk!2sua!4v1736694979514!5m2!1suk!2sua"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
         </div>
       </section>
     </main>
     <footer>
-      <section>
+      <section class="sss">
         <div class="container">
-          <h3>shop bakery</h3>
-          <nav>
-            <div>
-              <a href="">Франшиза</a>
-              <a href="">Наші традиції</a>
-              <a href="">Формати</a>
-              <a href="">Контакти</a>
+          <nav class="nav-footer">
+            <button class="logo-button">
+              shop <br />
+              <span class="secondari-word-logo">bakery</span>
+            </button>
+            <div class="nav-pages">
+              <a href="#">Франшиза</a>
+              <a href="#">Наші традиції</a>
+              <a href="#">Формати</a>
+              <a href="#">Контакти</a>
             </div>
-            <div>
-              <a href="">+ 38 (096) 000 00 07</a>
-              <a href="">shopbakery@gmail.com</a>
-              <a href="">Україна, м. Київ, вул. Січових Стрільців 54</a>
-              <a href=""
+            <div class="contacts-bakery">
+              <a href="#">+ 38 (096) 000 00 07</a>
+              <a href="#">shopbakery@gmail.com</a>
+              <a href="#">Україна, м. Київ, вул. Січових Стрільців 54</a>
+              <a href="#"
                 ><img src="./img/facebook.png" alt="логотип фейсбук"
               /></a>
-              <a href=""><img src="./img/instagram.png" alt="" /></a>
+              <a href="#"><img src="./img/instagram.png" alt="" /></a>
             </div>
             <div>
-              <a href="">Політика конфіденційності</a>
-              <a href="">© 2022 Дані захищені</a>
+              <a href="#">Політика конфіденційності</a>
+              <a href="#">© 2022 Дані захищені</a>
             </div>
           </nav>
         </div>

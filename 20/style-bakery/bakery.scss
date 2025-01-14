@@ -8,6 +8,7 @@
   --secondari-font-famili: "Gill Sans";
   --button-bcg: #819b57;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -15,6 +16,12 @@ html,
 body {
   font-family: "Poppins";
   background-color: var(--secondari-color);
+}
+article {
+  width: 350px;
+  min-height: 444px;
+  border-radius: 16px;
+  padding: 250px 24px 0;
 }
 h2 {
   font-family: var(--main-font-famili);
@@ -52,7 +59,7 @@ button {
 }
 a {
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
   color: var(--secondari-color);
   &:hover {
@@ -149,6 +156,7 @@ a {
   text-align: center;
 }
 .info-chefs {
+  width: 42%;
   display: flex;
 }
 .icon-chefs {
@@ -167,6 +175,27 @@ a {
   font-size: 2.2rem;
   font-weight: 600;
 }
+.info-chefs-vlad {
+  display: flex;
+  width: 42%;
+}
+.icon-chef-vlad {
+  margin-right: 20px;
+  width: 600px;
+  h3 {
+    color: var(--main-color);
+    font-family: var(--main-font-famili);
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+}
+.icon-chef-vlad img {
+  width: 100%;
+  min-height: 74vh;
+  border: 1px solid #a28268;
+  border-radius: 4px 4px 4px 200px;
+}
+
 .description-chefs-skils {
   color: var(--main-color);
   font-family: var(--main-font-famili);
@@ -175,7 +204,132 @@ a {
 }
 .content-chefs {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 // format
+.format-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.format-container p {
+  color: var(--secondari-color);
+  font-family: var(--main-font-famili);
+  font-size: 1rem;
+  font-weight: 300;
+}
+.puri-left {
+  background-image: url("../img/puri-left.png");
+  h4 {
+    color: var(--secondari-color);
+    font-family: var(--main-font-famili);
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    padding-bottom: 16px;
+  }
+  p {
+    padding-bottom: 10px;
+  }
+}
+.puri-centr {
+  background-image: url("../img/puri-centr.png");
+  background-repeat: no-repeat;
+  h4 {
+    color: var(--secondari-color);
+    font-family: var(--main-font-famili);
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 16px;
+  }
+  p {
+    padding-bottom: 10px;
+  }
+}
+.puri-right {
+  background-image: url("../img/puri-right.png");
+  h4 {
+    color: var(--secondari-color);
+    font-family: var(--main-font-famili);
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 16px;
+  }
+  p {
+    padding-bottom: 10px;
+  }
+}
+// Join-chain-bakeries-container
+.Join-chain-bakerie-container {
+  display: flex;
+  justify-content: space-between;
+}
+.title-section-join {
+  font-family: var(--main-font-famili);
+  font-size: 4rem;
+  font-weight: 900;
+  width: 42%;
+}
+.tell-my {
+  color: #465929;
+  font-family: var(--main-font-famili);
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 16px 0 42px 0;
+}
+.form-container {
+  input {
+    width: 605px;
+    padding: 16px 42px;
+    display: block;
+    background-color: transparent;
+    margin-bottom: 24px;
+    border-radius: 8px;
+  }
+}
+.button-foin {
+  display: flex;
+  justify-content: center;
+}
+.privacy-policy {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  color: var(--main-color);
+  font-family: var(--main-font-famili);
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 16px;
+}
+.map-brakerie {
+  width: 42%;
+}
+// footer
+.sss {
+  background-color: #31261a;
+}
+.nav-footer {
+  padding: 30px 0 24px 0;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    display: block;
+  }
+}
+.nav-pages {
+  a {
+    padding-bottom: 16px;
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+}
+.contacts-bakery {
+  a {
+    padding-bottom: 16px;
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+}
