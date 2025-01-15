@@ -37,7 +37,12 @@ button {
   background-color: var(--button-bcg);
   color: #faf4ea;
   border-radius: 6px;
-  border: none;
+  border: 2px solid var(--hover-color);
+  &:hover {
+    background-color: var(--secondari-color);
+
+    color: #465929;
+  }
 }
 .container {
   width: 87%;
@@ -51,8 +56,11 @@ button {
   border: none;
   font-size: 1.4rem;
   font-weight: 700;
-
   text-transform: uppercase;
+  &:hover {
+    background-color: transparent;
+    color: var(--secondari-color);
+  }
 }
 .secondari-word-logo {
   font-weight: 700;
@@ -72,6 +80,7 @@ a {
   background-size: cover;
 }
 .header-container {
+  padding-top: 33px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -129,6 +138,14 @@ a {
   text-transform: uppercase;
 }
 .text-content-new-format-traditions {
+  p {
+    &:nth-child(2) {
+      padding: 42px 0;
+    }
+  }
+  &:last-child {
+    padding: 0;
+  }
   width: 49%;
 }
 .icon-contaoner-format_tradition {
@@ -149,6 +166,9 @@ a {
 }
 // chefs
 .title-section-chefs {
+  h2 {
+    padding: 96px 0 80px 0;
+  }
   margin: 0 auto;
   width: 32vw;
 }
@@ -158,6 +178,12 @@ a {
 .info-chefs {
   width: 42%;
   display: flex;
+  p {
+    padding: 16px 0;
+  }
+  &:last-child {
+    padding-bottom: 0;
+  }
 }
 .icon-chefs {
   width: 268px;
@@ -176,6 +202,12 @@ a {
   font-weight: 600;
 }
 .info-chefs-vlad {
+  p {
+    padding: 16px 0;
+  }
+  &:last-child {
+    padding: 0;
+  }
   display: flex;
   width: 42%;
 }
@@ -211,6 +243,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.format-title-section {
+  padding: 96px 0 80px 0;
+  text-align: center;
 }
 .format-container p {
   color: var(--secondari-color);
@@ -261,6 +297,7 @@ a {
 }
 // Join-chain-bakeries-container
 .Join-chain-bakerie-container {
+  padding: 96px 0 128px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -312,7 +349,6 @@ a {
   padding: 30px 0 24px 0;
   display: flex;
   justify-content: space-between;
-
   a {
     display: block;
   }
@@ -328,8 +364,19 @@ a {
 .contacts-bakery {
   a {
     padding-bottom: 16px;
+    &:nth-child(4) {
+      margin-right: 31px;
+      display: inline-block;
+    }
     &:last-child {
+      display: inline-block;
       padding-bottom: 0;
     }
   }
+}
+.data-protected {
+  color: #a28268;
+  font-family: var(--main-font-famili);
+  font-size: 1rem;
+  font-weight: 400;
 }
