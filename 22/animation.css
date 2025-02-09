@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 24;
+}
+.container {
+  background-color: black;
+}
+button {
+  cursor: pointer;
+  position: relative;
+  padding: 20px 50px;
+  margin: 50px;
+  background-color: black;
+  color: rgb(39, 170, 247);
+  border: 2px solid blue;
+  font-size: 1.5rem;
+  transition: all 1s;
+  border-radius: 4px;
+}
+button span {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+button:hover span {
+  transform: translateY(-2px);
+}
+button:hover {
+  background-color: blue;
+  color: white;
+  transition: all 1s;
+  transform: translateY(-2px);
+}
+
+body button:nth-child(2):hover {
+  color: rgb(39, 170, 247);
+  background-color: black;
+  transition: all 0.5s linear;
+  box-shadow: 0 0 10px 10px rgb(15, 176, 204);
+  transform: translateY(-2px);
+}
+button:nth-child(3) {
+  transition: 1s;
+}
+body button:nth-child(3):hover {
+  transform: translateY(-5px);
+  background-color: transparent;
+  box-shadow: 0 13px 7px -5px rgb(15, 176, 204);
+  transition: 1s;
+}
+
+body button:nth-child(4) {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  position: relative;
+  background-color: blue;
+  color: black;
+  transition: transform 1s;
+}
+
+body button:nth-child(4):hover {
+  transform: translateY(0);
+  transition: all 0.5s;
+}
+body button:nth-child(4) span {
+  transition: all 0.5s;
+}
+body button:nth-child(4):hover span {
+  transform: translateY(23px);
+  color: blue;
+  transition: all 0.5s;
+}
+body button:nth-child(4) p {
+  position: absolute;
+  top: -28px;
+  color: blue;
+  transition: all 0.5s;
+}
+body button:nth-child(4):hover p {
+  color: black;
+  position: absolute;
+  transform: translateY(26px);
+  transition: all 0.5s;
+}
+body button:nth-child(5) {
+  background-image: linear-gradient(to right, blue 50%, transparent 50%);
+}
+body button:nth-child(5):hover {
+  background-image: linear-gradient(to right, blue 50%, blue 50%);
+}

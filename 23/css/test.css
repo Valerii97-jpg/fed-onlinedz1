@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+.grid-items {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+.grid-items img {
+  max-width: 100%;
+  height: auto;
+}

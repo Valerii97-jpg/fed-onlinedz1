@@ -1,0 +1,28 @@
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+
+.grid__element {
+  background-color: #f00;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid #000;
+}
+.grid {
+  align-content: space-between;
+  justify-content: space-between;
+  display: grid;
+  height: 500px;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(2, 150px);
+  justify-items: start;
+}
+.header {
+  justify-self: start;
+  align-self: self-start;
+}

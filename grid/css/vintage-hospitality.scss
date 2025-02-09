@@ -1,0 +1,89 @@
+@import url("./reset.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --advante-color: #000000;
+  --secondari-color: #ffffff;
+  --hover-color: #ff9900;
+}
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Philosopher" serif;
+  font-size: 18px;
+}
+.container {
+  width: 84%;
+  margin: 0 auto;
+}
+header section {
+  background-image: url("../bg-image/banner-header.jpeg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h2 {
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: var(--secondari-color);
+  }
+  span {
+    color: var(--hover-color);
+  }
+  a {
+    text-decoration: none;
+    color: var(--secondari-color);
+    font-size: 1.5rem;
+    display: block;
+    &:hover {
+      color: var(--hover-color);
+    }
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    color: var(--secondari-color);
+    font-size: 1.5rem;
+    padding: 0;
+    &:hover {
+      color: var(--hover-color);
+    }
+  }
+  h1 {
+    color: #ffffff;
+    font-size: 4.5rem;
+    margin-right: 182px;
+    width: 27%;
+    text-align: right;
+  }
+  p {
+    color: var(--secondari-color);
+    font-weight: 400;
+    font-family: var(--main-font);
+    font-size: 2rem;
+  }
+  nav {
+    display: flex;
+  }
+}
+.header-contant {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-content {
+  display: flex;
+  justify-content: center;
+  padding: 321px 0 366px;
+  p {
+    width: 40%;
+    text-align: right;
+  }
+}

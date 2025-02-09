@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 508px 508px 508px;
+  grid-template-rows: 413px;
+  grid-gap: 30px;
+}
+.grid-item {
+  padding: 20px;
+  border: 2px solid red;
+  /* background-color: aqua; */
+}
+.grid-item:nth-child(5) {
+  grid-column-start: 3;
+}
