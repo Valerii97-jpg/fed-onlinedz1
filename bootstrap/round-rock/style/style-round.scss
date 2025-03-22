@@ -1,0 +1,54 @@
+// header
+.bg-img {
+  background-image: url("../bg-img/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text-firm {
+  padding: 50px 0;
+  h2 {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 5vw;
+    font-weight: 800;
+  }
+  h4 {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 800;
+  }
+}
+.title-logo {
+  padding: 17px 0 100px;
+
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 10vw;
+  font-weight: 900;
+}
+.button-header {
+  padding-bottom: 116px;
+}
+// main
+.grass {
+  top: 13px;
+  right: 135px;
+}
+.specialist {
+  font-size: 14px;
+  width: 45%;
+}
+.text-color::placeholder {
+  color: white;
+}
+// information-section
+.information-section {
+  background-image: url("../bg-img/main-thee-section.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.information-section-text {
+  padding-top: 154px;
+}
